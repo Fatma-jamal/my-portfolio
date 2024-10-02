@@ -1,6 +1,42 @@
+:root{
+    --chantilly:#FAF7F0;
+    --Timberwolf:#D8D2C2;
+    --copper-red:#B17457;
+    --paynes-grey:#4A4947;
+    /* --------------------------- */
+    --peach-puff:#EDDFE0;
+    --lavender-grey:#F5F5F7;
+    --grey:#B7B7B7;
+    --antique-brass:#705C53;
+}
 *{
     font-family: "Alexandria", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300px;
     font-style: normal;
-  }
+}
+body{
+    background-color: var(--antique-brass);
+}
+.lavender-grey-color{
+    color: var(--lavender-grey);
+}
+.peach-puff-color{
+    color: var(--peach-puff);
+}
+img.home-img {
+    width: 500px;
+    height: 500px;
+}
+.pt-15{
+    padding-top: 13%;
+}
+@media screen and (max-width: 1000px){
+    img.home-img{
+        width: 300px;
+        height: 300px;
+    }
+    .home-container{
+        text-align: center;
+    }
+}
