@@ -24,9 +24,8 @@ body{
 .peach-puff-color{
     color: var(--peach-puff);
 }
-img.home-img {
-    width: 500px;
-    height: 500px;
+.grey-color{
+    color: var(--grey);
 }
 .pt-15{
     padding-top: 13%;
