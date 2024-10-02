@@ -8,6 +8,11 @@
     --lavender-grey:#F5F5F7;
     --grey:#B7B7B7;
     --antique-brass:#705C53;
+    /* --------------------------- */
+    --dark-blue:#384B70;
+    --blue-green:#507687;
+    --light-white:#FCFAEE;
+    --deep-red:#B8001F;
 }
 *{
     font-family: "Alexandria", sans-serif;
@@ -16,7 +21,23 @@
     font-style: normal;
 }
 body{
-    background-color: var(--antique-brass);
+    background-color: var(--dark-blue);
+}
+.dark-blue-color{
+    color: var(--dark-blue);
+}
+.blue-green-color{
+    color: var(--blue-green);
+}
+.deep-red-color{
+    color: var(--deep-red);
+}
+.blue-green-bgcolor{
+    background-color: var(--blue-green);
+}
+
+.light-white-color{
+    color:var(--light-white);
 }
 .antique-brass-bgcolor{
     background-color: var(--antique-brass);
