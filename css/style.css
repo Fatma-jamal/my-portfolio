@@ -18,6 +18,9 @@
 body{
     background-color: var(--antique-brass);
 }
+.antique-brass-bgcolor{
+    background-color: var(--antique-brass);
+}
 .lavender-grey-color{
     color: var(--lavender-grey);
 }
@@ -27,8 +30,18 @@ body{
 .grey-color{
     color: var(--grey);
 }
+.paynes-grey-color{
+    color:var(--paynes-grey);
+}
 .pt-15{
     padding-top: 13%;
+}
+.services-card{
+    backdrop-filter: opacity(20%);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.services-card img,.services-card h1{
+    filter: none;
 }
 @media screen and (max-width: 1000px){
     img.home-img{
